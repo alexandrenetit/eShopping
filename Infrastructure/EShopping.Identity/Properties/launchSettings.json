@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "EShopping.Identity": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:9009;http://localhost:9011"
+    }
+  }
+}
