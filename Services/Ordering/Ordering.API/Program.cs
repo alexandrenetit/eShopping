@@ -23,5 +23,5 @@ public class Program
             .ConfigureWebHostDefaults(webBuilder =>
             {
                 webBuilder.UseStartup<Startup>();
-            }).UseSerilog(Logging.configureLogger);
+            }).UseSerilog(Logging.ConfigureLogger);
 }

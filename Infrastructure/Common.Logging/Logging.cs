@@ -8,7 +8,7 @@ namespace Common.Logging;
 
 public static class Logging
 {
-    public static Action<HostBuilderContext, LoggerConfiguration> configureLogger =>
+    public static Action<HostBuilderContext, LoggerConfiguration> ConfigureLogger =>
         (context, loggerConfiguration) =>
         {
             loggerConfiguration.MinimumLevel.Information()
